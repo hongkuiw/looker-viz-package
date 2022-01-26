@@ -2,9 +2,9 @@ ID: mw_big_number_w_trend_preview_v2
 Label: MW-Big Number w/ Trend(v2)
 
 ## Main:
-https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend/main.js
+https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend-v2/main.js
 ## Dependencies: 
-https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend/util.js
+https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend-v2/util.js
 , https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js
 , https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
 , https://cdn.jsdelivr.net/npm/d3-array@3.0.1/dist/d3-array.min.js
@@ -17,6 +17,7 @@ https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend
 , https://cdnjs.cloudflare.com/ajax/libs/highcharts/9.2.1/modules/exporting.min.js
 , https://cdnjs.cloudflare.com/ajax/libs/highcharts/9.2.1/highcharts-more.min.js
 , https://www.unpkg.com/@tidyjs/tidy/dist/umd/tidy.min.js
+, https://kit.fontawesome.com/98c5073dcf.js
 
 
 ## Main:
