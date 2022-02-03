@@ -343,11 +343,11 @@ function updateChartBigNumberTrend(data, config, queryResponse) {
         }
       }
       // comment black for y-Axis reference line
-      , plotLines: [{
-        color: config.line_color_reference,
-        width: 2,
-        value: config.reference_line_value
-      }]
+      // , plotLines: [{
+      //   color: config.line_color_reference,
+      //   width: 2,
+      //   value: config.reference_line_value
+      // }]
     },
     legend: {
       enabled: false,

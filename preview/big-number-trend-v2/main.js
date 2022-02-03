@@ -97,12 +97,12 @@ const visObject = {
       default: " "
     }
     // comment black for y-Axis reference line
-    , line_color_reference: {
-      type: "string",
-      display: "color",
-      label: "X. Choose Reference Line Color",
-      default: "#666666",
-    }
+    // , line_color_reference: {
+    //   type: "string",
+    //   display: "color",
+    //   label: "X. Choose Reference Line Color",
+    //   default: "#666666",
+    // }
     // , reference_line_value: {
     //   type: "number",
     //   display: "select",
@@ -112,21 +112,21 @@ const visObject = {
   },
   create: function (element, config) {
     element.innerHTML = `
-      // <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
       <style>
       .highcharts-figure #container{
         height: 90%;
         width: 90%;
         margin-left: -20px;
         position: absolute;
-        // fully responsiveness
+        /* fully responsiveness */
       }
       .highcharts-figure #container:hover {
       }
       
       .highcharts-figure #container .highcharts-container {
-        // border-radius: 20px;
-        // filter: drop-shadow(2px 2px 2px #999999);
+        /* border-radius: 20px; */
+        /* filter: drop-shadow(2px 2px 2px #999999); */
       }
       
       .highcharts-title {
