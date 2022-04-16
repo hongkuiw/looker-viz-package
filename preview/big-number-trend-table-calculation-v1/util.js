@@ -1,3 +1,4 @@
+console.log = function() {}
 var generateDataRecords = (dataIndexFormat) => {
   var dataRecords = []
   dataIndexFormat.forEach(d=>{

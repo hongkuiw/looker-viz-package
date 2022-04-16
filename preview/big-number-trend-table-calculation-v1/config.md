@@ -1,5 +1,5 @@
 ID: mw_big_number_w_trend_tc_v1
-Label: MW-Big Number w/ Trend(TC)
+Label: ZMW-Big Number w/ Trend
 
 ## Main:
 https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend-table-calculation-v1/main.js
