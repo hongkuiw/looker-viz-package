@@ -409,9 +409,9 @@ function updateChartBigNumberTrend(data, config, queryResponse) {
       },
     ],
     tooltip: {
-      formatter: function() {
-        return this.series.name + ": " + humanReadableNumber(percentageNumber(parseFloat(this.y), config.is_percentage_number),config.is_human_readable) + '<br> on: ' + ((new Date(this.x)).toISOString()).split('T')[0]
-      },
+      // formatter: function() {
+      //   return this.series.name + ": " + humanReadableNumber(percentageNumber(parseFloat(this.y), config.is_percentage_number),config.is_human_readable) + '<br> on: ' + ((new Date(this.x)).toISOString()).split('T')[0]
+      // },
       style: {
         color: "#000000",
         fontFamily: '"Google Sans", Roboto, "Noto Sans JP", "Noto Sans", "Noto Sans CJK KR", Helvetica, Arial, sans-serif'
