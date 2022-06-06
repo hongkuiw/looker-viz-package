@@ -313,7 +313,7 @@ function updateChartBigNumberTrend(data, config, queryResponse) {
         + '<br>'
         + "<p class='highcharts-metrics-value-prefix'>" + translateAggregationType(config.aggregation_type) + ": </p>" +
         '<p class="highcharts-metrics-value-latest">' + config.prefix 
-        + humanReadableNumber(percentageNumber(metricsValueAggregated, config.is_percentage_number),config.is_human_readable) 
+        + humanReadableNumber(percentageNumber(metricsValueAggregated, config.is_percentage_number),config.is_human_readable)
         + '<span class="highcharts-metrics-value-suffix">' + config.suffix + '</span>'
         ,
       align: "left",

@@ -49,6 +49,19 @@ const visObject = {
         { median: "median" },
       ],
     },
+    // num_decimals: {
+    //   type: "string",
+    //   display: "select",
+    //   label: "5.1 No. Decimals",
+    //   default: "2",
+    //   values: [
+    //     { two: "2" },
+    //     { zero: "0" },
+    //     { one: "1" },
+    //     { three: "3" },
+    //     { four: "4" },
+    //   ],
+    // },
     positive_is_bad: {
       type: "boolean",
       label: "5. Toggle for Positive Value is Bad or not?",
