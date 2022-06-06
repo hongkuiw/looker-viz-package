@@ -4,7 +4,7 @@ Label: ZMW-Big Number w/ Trend
 ## Main:
 https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend-table-calculation-v1/main.js
 ## Dependencies: 
-https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package/preview/big-number-trend-table-calculation-v1/util.js
+https://cdn.jsdelivr.net/gh/hongkuiw/looker-viz-package@6b49663/preview/big-number-trend-table-calculation-v1/util.js
 , https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js
 , https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js
 , https://cdn.jsdelivr.net/npm/d3-array@3.0.1/dist/d3-array.min.js

@@ -39,6 +39,19 @@ const visObject = {
         { median: "median" },
       ],
     },
+    num_decimals: {
+      type: "string",
+      display: "select",
+      label: "5.1 No. Decimals",
+      default: "2",
+      values: [
+        { two: "2" },
+        { zero: "0" },
+        { one: "1" },
+        { three: "3" },
+        { four: "4" },
+      ],
+    },
     prefix: {
       type: "string",
       display: "text",
@@ -252,7 +265,7 @@ const visObject = {
           "<br>" +
           "<p class='highcharts-metrics-value-prefix'>" + translateAggregationType(config.aggregation_type) + ": </p>" +
           '<p class="highcharts-metrics-value-latest">' + config.prefix 
-          + humanReadableNumber(percentageNumber(metricsValueAggregated, config.is_percentage_number),config.is_human_readable) 
+          + humanReadableNumber(percentageNumber(metricsValueAggregated, config.is_percentage_number),config.is_human_readable).toFixed(config.num_decimals) 
           + '<span class="highcharts-metrics-value-suffix">' + config.suffix + '</span>'
           +
           "</p>",
